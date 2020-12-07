@@ -232,14 +232,14 @@ figure {
   margin-bottom: 41px;
 }
 
-.project-time,
-.project-cost {
+.project-stack,
+.project-links {
   flex-basis: 50%;
   margin-bottom: 44px;
 }
 
-.project-time,
-.project-cost,
+.project-stack,
+.project-links,
 .project-feedback {
   display: flex;
   align-items: flex-start;
@@ -283,6 +283,11 @@ figure {
 
 .projects-bullet-active {
   background-color: #FFBB01;
+}
+
+.project-image {
+  max-width: 338px !important;
+  border-radius: 5px;
 }
 
 /* contacts */
@@ -516,8 +521,8 @@ figure {
     line-height: 150%;
   }
 
-  .project-time,
-  .project-cost,
+  .project-stack,
+  .projelinks,
   .project-feedback {
     flex-basis: 100%;
     margin-bottom: 30px;

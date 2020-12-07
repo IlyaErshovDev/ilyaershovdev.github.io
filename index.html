@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ершов Илья - портфолио</title>
+  <base target="_blank">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.min.css">
@@ -16,10 +17,10 @@
     <div class="container">
       <div class="header-box">
         <div class="social-links">
-          <a href="https://github.com/IlyaErshovDev" class="social-link social-icon"><img src="img/social/github.svg" alt="github"></a>
-          <a href="https://vk.com/id71363714" class="social-link social-icon"><img src="img/social/vk.svg" alt=""></a>
-          <a href="https://t.me/IlyaErshov" class="social-link social-icon"><img src="img/social/telegram.svg" alt=""></a>
-          <a href="https://www.instagram.com/yosh1337/" class="social-link social-icon"><img src="img/social/instagram.svg" alt=""></a>
+          <a href="https://github.com/IlyaErshovDev" class="social-link social-icon" ><img src="img/social/github.svg" alt="github"></a>
+          <a href="https://vk.com/id71363714" class="social-link social-icon" ><img src="img/social/vk.svg" alt=""></a>
+          <a href="https://t.me/IlyaErshov" class="social-link social-icon" ><img src="img/social/telegram.svg" alt=""></a>
+          <a href="https://www.instagram.com/yosh1337/" class="social-link social-icon" ><img src="img/social/instagram.svg" alt=""></a>
         </div>
         <!-- /.social-links -->
        
@@ -96,7 +97,7 @@
                       alt="sass"
                       src="img/icons/sass.svg"
                   />
-                  <figcaption>SASS</figcaption>
+                  <figcaption>SCSS/SASS</figcaption>
               </figure>
               <figure>
                   <img
@@ -141,99 +142,296 @@
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper projects-slider">
             <!-- Slides -->
-            <div class="swiper-slide projects-slide">
-              <img src="img/project-img.png" alt="project-image" class="project-image">
-              <div class="project-text">
-                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
-                <div class="project-time">
-                  <img src="img/projicons/time-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Сроки</h4>
-                    <p class="project-paragraph">4 рабочих дня</p>
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/simple-restaurant-app/">
+                    <img src="img/projects/resto.png" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">Веб-приложение ресторана</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>React.js</li>
+                          <li>Redux</li>
+                          <li>SCSS</li>
+                          <li>Json-server</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/simple-restaurant-app">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/simple-restaurant-app/">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">
+                          Это тренировочный проект для оттачивания навыков связки react-redux. В качестве fake REST API
+                          используется json-server.
+                          Реализованы функции рендера, добавления в корзину и изменения количества товара.
+                          Заказ из корзины покупок отправляется в базу данных нажатием кнопки.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="project-cost">
-                  <img src="img/projicons/cost-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Цена</h4>
-                    <p class="project-paragraph">14 000 рублей</p>
+
+                <!-- slide 2 -->
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/OnlineStoreTacticalPoint/index.html">
+                    <img src="img/projects/tp.jpg" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">Макет интернет-магазина</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>HTML, CSS</li> 
+                          <li>Bootstrap</li>
+                          <li>jQuery</li>                     
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/OnlineStoreTacticalPoint">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/OnlineStoreTacticalPoint/index.html">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">
+                          Шаблон интернет-магазина элементов тюнинга оружия "Tactical Point".
+                           Выполнен в 2019 году. Использовался с CMS ModX. 
+                           <br>
+                           <a href="https://s3.amazonaws.com/media-p.slid.es/videos/1084510/Q02dIRUV/screencast-ytc.mp4">
+                            Ссылка на демонстрационное видео.
+                          </a>
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="project-feedback">
-                  <img src="img/projicons/feedback-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                    <p class="project-paragraph">Мне понравилось работать с Ильёй, потому что он все время был на связи
-                      и предлагал свои решения, когда мы заходили в
-                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Илья — тот редкий
-                      фрилансер, у которого с
-                      документами все в порядке</p>
+                <!-- slide 3 -->
+
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/note-manager/">
+                    <img src="img/projects/note-manager.png" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">Менеджер заметок</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>React.js</li>
+                          <li>HTML, CSS, JSX</li>
+                          <li>Bootstrap</li>
+                          <li>Font Awesome</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/note-manager">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/note-manager/">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">Учебное веб-приложение на React с приятным и лаконичным интерфейсом.
+                          Реализованы функции добавления и удаления записей. Понравившиеся и избранные заметки можно быстро найти с помощью поиска или сортировки.
+                          В ходе создания проекта оттачивался навык работы с состоянием приложения без использования сторонних библиотек (state-контейнеров).
+
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="swiper-slide projects-slide">
-              <img src="img/project-img.png" alt="project-image" class="project-image">
-              <div class="project-text">
-                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
-                <div class="project-time">
-                  <img src="img/projicons/time-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Сроки</h4>
-                    <p class="project-paragraph">4 рабочих дня</p>
+                <!-- slide 3 -->
+               
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/GOT-API-Service/">
+                    <img src="img/projects/gotdb.png" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">GOT API Service</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>React.js</li>
+                          <li>React Router</li>
+                          <li>Styled-components</li>
+                          <li>public free API</li>                          
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/GOT-API-Service">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/GOT-API-Service/">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">
+                          Тренировочный проект, взаимодействующий с API по вселенной сериала "Game of Thrones".
+                          Реализован рендер основной информации, приходящей с сервера. Во время загрузки отображаются индикаторы.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="project-cost">
-                  <img src="img/projicons/cost-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Цена</h4>
-                    <p class="project-paragraph">14 000 рублей</p>
+                <!-- slide 4 -->
+
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/MusicPlayer/">
+                    <img src="img/projects/mplayer.png" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">Уголок меломана</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>JS</li>
+                          <li>SCSS</li>
+                          <li>Font Awesome</li>                         
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/MusicPlayer">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/MusicPlayer/">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">
+                          Одностраничный проект на JavaScript, описывающий интерфейс браузерного плеера для воспроизведения
+                          видео, музыки и url-потоков радиостанций.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="project-feedback">
-                  <img src="img/projicons/feedback-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                    <p class="project-paragraph">Мне понравилось работать с Ильёй, потому что он все время был на связи
-                      и предлагал свои решения, когда мы заходили в
-                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Илья — тот редкий
-                      фрилансер, у которого с
-                      документами все в порядке</p>
+
+                <!-- slide 5 -->
+
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/seabattle/">
+                    <img src="img/projects/SeaBattle.png" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">Морской бой</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>JS</li>
+                          <li>HTML, CSS</li>                        
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/seabattle">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/seabattle/">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">
+                          Реализована случайная генерация кораблей, логика попадания и потопления.
+                          Для хранения рекордов используется браузерный localStorage. 
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="swiper-slide projects-slide">
-              <img src="img/project-img.png" alt="project-image" class="project-image">
-              <div class="project-text">
-                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
-                <div class="project-time">
-                  <img src="img/projicons/time-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Сроки</h4>
-                    <p class="project-paragraph">4 рабочих дня</p>
+                <!-- slide 6 -->
+
+                <div class="swiper-slide projects-slide">
+                  <a href="https://ilyaershovdev.github.io/AirTicketsSearch/">
+                    <img src="img/projects/airtickets.png" alt="project-image" class="project-image">
+                  </a>
+                  <div class="project-text">
+                    <h3 class="project-title">Поиск дешёвых авиабилетов</h3>
+                    <div class="project-stack">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Стек</h4>
+                        <ul class="project-paragraph">
+                          <li>JavaScript</li>
+                          <li>HTML, CSS</li>
+                          <li>public free API</li>                          
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="project-links">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Ссылки</h4>
+                        <p class="project-paragraph">
+                          <a href="https://github.com/IlyaErshovDev/AirTicketsSearch">Github</a>
+                          |
+                          <a href="https://ilyaershovdev.github.io/AirTicketsSearch/">Live</a>
+
+                        </p>
+                      </div>
+                    </div>
+                    <div class="project-feedback">
+                      <div class="project-descr">
+                        <h4 class="project-subtitle">Описание</h4>
+                        <p class="project-paragraph">
+                          Веб-приложение, взаимодействующее с Aviasales API. Пользователь с помощью интерфейса приложения строит
+                          сложный запрос к API, после ответа с сервера происходит рендер информации о билетах.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="project-cost">
-                  <img src="img/projicons/cost-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Цена</h4>
-                    <p class="project-paragraph">14 000 рублей</p>
-                  </div>
-                </div>
-                <div class="project-feedback">
-                  <img src="img/projicons/feedback-icon.svg" alt="time" class="project-icon">
-                  <div class="project-descr">
-                    <h4 class="project-subtitle">Отзыв клиента</h4>
-                    <p class="project-paragraph">Мне понравилось работать с Ильёй, потому что он все время был на связи
-                      и предлагал свои решения, когда мы заходили в
-                      тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Илья — тот редкий
-                      фрилансер, у которого с
-                      документами все в порядке</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             ...
           </div>
           <!-- If we need pagination -->
