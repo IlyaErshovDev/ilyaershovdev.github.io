@@ -10,7 +10,14 @@ allProjectsLink = document.querySelector('#all-projects'),
 educationLink = document.querySelector('#education'),
 contactsLink = document.querySelector('#contacts'),
 scrollUp = document.querySelector('.scroll-up'),
-topOfPage = document.querySelector('.link-bar');
+topOfPage = document.querySelector('.link-bar'),
+mobMenu = document.querySelector('.mob-menu-wrapper'),
+mobileBtn = document.querySelector('.mobile-btn'),
+closeMobMenu = document.querySelector('.close-mob-menu'),
+mobSkills = document.querySelector('.mob-skills'),
+mobProjects = document.querySelector('.mob-projects'),
+mobContacts = document.querySelector('.mob-contacts'),
+mobEducation = document.querySelector('.mob-education');
 
 
 function scrollTo(elem) {
@@ -39,6 +46,10 @@ if (window.pageYOffset > 0) {
 }
 }
 
+function toggleMenuVisible() {
+  mobMenu.classList.toggle('active');
+}
+
 
 var mySwiper = new Swiper('.swiper-container', {
   loop: true,
@@ -57,6 +68,8 @@ var mySwiper = new Swiper('.swiper-container', {
 
 window.addEventListener('scroll', trackScroll);
 scrollUp.addEventListener('click', backToTop);
+mobileBtn.addEventListener('click', toggleMenuVisible);
+closeMobMenu.addEventListener('click', toggleMenuVisible);
 features.addEventListener('click', (event) => {
   event.preventDefault();
   scrollTo(skillsLink)});
@@ -69,5 +82,26 @@ education.addEventListener('click', (event) => {
 contacts.addEventListener('click', (event) => {
   event.preventDefault();
   scrollTo(contactsLink)});
+
+  mobSkills.addEventListener('click', (event) => {
+    event.preventDefault();
+    scrollTo(skillsLink);
+    toggleMenuVisible();
+  });
+  mobProjects.addEventListener('click', (event) => {
+    event.preventDefault();
+    scrollTo(allProjectsLink);
+    toggleMenuVisible();
+  });
+  mobEducation.addEventListener('click', (event) => {
+    event.preventDefault();
+    scrollTo(educationLink);
+    toggleMenuVisible();
+  });
+  mobContacts.addEventListener('click', (event) => {
+    event.preventDefault();
+    scrollTo(contactsLink);
+    toggleMenuVisible();
+  });
 
 
