@@ -25,6 +25,7 @@ body {
   padding-top: 64px;
   padding-bottom: 92px;
 }
+
 div {
   display: block;
 }
@@ -38,6 +39,11 @@ a {
 a:hover {
   text-decoration: none;
   color: #FFBB01;
+  outline: none;
+}
+
+a:focus{
+  outline: none !important;
 }
 
 .common-link {
@@ -53,6 +59,15 @@ a:hover {
   margin-bottom: 54px;
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 
 
 /* header */
@@ -362,7 +377,7 @@ figure {
 }
 
 .project-image {
-  max-width: 338px !important;
+  max-width: 338px;
   border-radius: 5px;
 }
 
@@ -690,7 +705,8 @@ figure {
 }
 
 
-@media screen and (min-width: 375px) and (max-width: 749px) {
- 
-
+@media (max-width: 380px) {
+  .project-image {
+    width: 100%;
+}
 }

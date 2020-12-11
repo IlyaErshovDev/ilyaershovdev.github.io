@@ -1,5 +1,5 @@
 'use strict';
-new WOW().init();
+new WOW( {mobile: false} ).init();
 
 const features = document.querySelector('.skills'),
 projects = document.querySelector('.all-projects'),
