@@ -244,9 +244,9 @@ button {
   width: 389px;
   height: 389px;
   border-radius: 50%;
-  background-image: url('../img/DSC_0098.jpg');
+  background-image: url('../img/DSC_0098min.jpg');
   background-repeat: no-repeat;
-  background-position: center top -130px;
+  background-position: center top -20px;
   background-size: cover;
   border: 12px solid #383849;
 }
